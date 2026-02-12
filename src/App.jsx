@@ -2,7 +2,7 @@ import { Header } from './components/Header'
 import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
 import { Jungling } from './components/Jungling'
-import { Cards } from './pages/cards'
+import { Cards } from './pages/Cards'
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
           }
         />
         <Route path="/jungling" element={<Jungling />} />
+        <Route path="/cards" element={<Cards />} />
       </Routes>
       <Footer />
     </div>
