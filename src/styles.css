@@ -18,6 +18,7 @@ body {
 /* Navbar */
 .navbar {
   background-color: #d7c51f;
+  
   color: white;
   padding: 0.5rem 1rem;
   position: sticky;
@@ -26,6 +27,8 @@ body {
 }
 
 .navbar ul,button {
+  font-size: large;
+  
   list-style: none;
   display: flex;
   gap: 1rem;
@@ -40,12 +43,14 @@ body {
   background-color: #d7c51f;
   border: none;
   cursor: pointer;
+  
   padding: 0.5rem 0.5rem;
 }
 
 /* Подменю */
 .nav-item .sub-menu {
   display: none; /* скрыто по умолчанию */
+  
   position: absolute;
   list-style: none;
   padding: 0;

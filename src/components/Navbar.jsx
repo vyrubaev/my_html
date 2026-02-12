@@ -4,7 +4,7 @@ export const Navbar = () => {
     <nav className="navbar">
       <ul>
         <li className="nav-item">
-          <button aria-expanded="false">Apps</button>
+          <button aria-expanded="false">Home</button>
           <ul className="sub-menu" aria-label="Apps">
             <li><Link to="/jungling">Jungling</Link></li>
             <li><Link to="/jungling">Chat</Link></li>
@@ -21,7 +21,7 @@ export const Navbar = () => {
           <button aria-expanded="false">Apps</button>
           <ul className="sub-menu" aria-label="Apps">
             <li><Link to="/jungling">Jungling</Link></li>
-            <li><Link to="/jungling">Chat</Link></li>
+            <li><Link to="/jungling">Cards</Link></li>
             <li><Link to="/jungling">Email</Link></li>
           </ul>
         </li>
