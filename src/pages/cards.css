@@ -9,11 +9,9 @@
     width: 125px;
     height: 180px;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: lightpink;
-}
+
 #playing-cards {
+    background-color: lightpink;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

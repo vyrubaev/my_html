@@ -1,5 +1,6 @@
 /* Общие стили */
 body {
+  background-color: #f0f0f0;
   font-family: sans-serif;
   margin: 0;
   padding: 0;
@@ -79,4 +80,11 @@ body {
   background-color: #f0f0f0;
   padding: 1rem;
   text-align: center;
+}
+
+/* Jungling */
+.jungling-page {
+  margin: 10px;
+  padding: 20px;
+  background-color: gold;
 }
